@@ -26,7 +26,7 @@
      {"0.7.65" "abc4f76af450eedeb063158bd963feaa"})
 
 (defn ftp-path [version]
-  (format "http://sysoev.ru/nginx/nginx-%s.tar.gz" version))
+  (format "http://nginx.org/download/nginx-%s.tar.gz" version))
 
 (def nginx-conf-dir "/etc/nginx")
 (def nginx-install-dir "/opt/nginx")
